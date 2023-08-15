@@ -9,4 +9,3 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   </React.StrictMode>,
 )
 
-//que pasa si escribo esto?
