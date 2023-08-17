@@ -3,14 +3,14 @@
 
 import React from 'react'
 
-const Card = ({usuario, setVoto}) => {
+const Card = ({cliente, setCliente}) => {
     
   return (
     <div >
-        <h3>{usuario.nombre}</h3>
-        <h4>{usuario.apellido}</h4>
-        <h5>{usuario.personaje}</h5>
-        <button onClick={() => setVoto(true)}>Subir Voto</button>
+        <h3>{cliente.nombre}</h3>
+        <h4>{cliente.apellido}</h4>
+        <h5>{cliente.personaje}</h5>
+        <button onClick={() => setCliente(true)}>Subir Voto</button>
     </div>
   )
 }
